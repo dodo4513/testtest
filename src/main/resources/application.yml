@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: local
+  jpa:
+    show-sql: true
+
+datasource:
+  url: jdbc:postgresql://localhost:25432/kakaofinance
+  username: kakaoapp
+  password: '!q2w3e4r'
+---
+spring:
+  profiles:
+    active: dev
